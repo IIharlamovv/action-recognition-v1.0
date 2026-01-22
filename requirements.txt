@@ -1,0 +1,5 @@
+torch
+torchvision
+pytorchvideo
+opencv-python
+numpy

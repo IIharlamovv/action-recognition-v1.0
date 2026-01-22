@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Data
+data/
+*.csv
+*.json
+
+# Weights
+*.pt
+*.pth
+
+# Video
+*.mp4
+*.avi
+
+# Outputs
+runs/
+output.*
+session_*_predictions.json
+
+# OS
+.DS_Store
+Thumbs.db
