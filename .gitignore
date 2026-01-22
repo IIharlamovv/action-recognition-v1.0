@@ -1,28 +1,26 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
 
-# Virtual environments
+# venv
 .venv/
 venv/
 
-# Data
-data/
-*.csv
-*.json
+# Big data (ignore)
+data/raw/
+data/processed/
+
+# Keep metadata (do NOT ignore these)
+!data/annotations.csv
+!data/labels.txt
+!data/splits/
+!data/splits/**
 
 # Weights
 *.pt
 *.pth
 
-# Video
-*.mp4
-*.avi
-
 # Outputs
-runs/
-output.*
 session_*_predictions.json
 
 # OS

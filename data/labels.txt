@@ -1,0 +1,8 @@
+walk
+stand
+run
+jump
+push_ups
+squat
+bend
+other
