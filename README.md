@@ -11,9 +11,6 @@
 
 ![Action Recognition Demo](assets/demo.gif)
 
-▶ **Полное видео (MP4):**  
-[assets/example.mp4](assets/example.mp4)
-
 ---
 
 ##  О проекте
@@ -31,25 +28,32 @@
 
 ---
 
+## Закачка библиотек
+
+```
+pip install -r requirements.txt
+```
+
+##  Подготовка датасета
+
 Код подготовки датасета:
 
+```bash
 python src/data/prepare_dataset.py
-
-
----
-
-Установка
-pip install -r requirements.txt
+```
 
 ---
 
-Онлайн (real-time)
+## Инференс
+
+### Онлайн (real-time)
+```bash
 python inf/infer_online.py
+```
 
-Офлайн (video → video)
+### Офлайн (video → video)
+```bash
 python inf/infer_video.py
+```
 
----
 
-Разметка видео для тренировки модели была проделана самым простейшим способом - в обычном .csv файле с 4-мя столбцами сделал кривую разметку.
-Датасет трансформировал, так как снимал в вертикальном формате. Модель обучалась на платформе kaggle и веса соотвественно закачивал оттуда.
